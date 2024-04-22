@@ -1,0 +1,135 @@
+
+.App {
+  background: black;
+  height: 100vh;
+  background-image: url("https://t3.ftcdn.net/jpg/04/59/95/60/360_F_459956036_JXcJ0vzTzr2GFFpUcNsCT7CCaSDRKgtt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.mtime{
+  position:absolute;
+  top:3px;
+  left:670px;
+}
+.match-control-buttons{
+  position:absolute;
+  top:70px;
+  left:1000px;
+}
+.sba,.sbb{
+  padding: 30px;
+  width: 700px;
+}
+.ctime{
+  position:absolute;
+  top:180px;
+  left:620px ;
+}
+.t-countdown{
+  font-size: 50px;
+}
+
+.sboard{
+  display: flex;
+  margin-left: 10px;
+   height: 400px;
+
+}
+.btns{
+  margin:20px;
+  padding:25px;
+
+}
+
+/* For small devices (phones) */
+@media only screen and (max-width: 599px) {
+  .App {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  
+  .mtime {
+    position: absolute; /* Change position to static for smaller screens */
+    font-size: 70px; /* Adjust font size for smaller screens */
+    left: 200px; /* Remove left positioning */
+    top: auto; /* Remove top positioning */
+    margin-top: 20px; /* Add margin-top for spacing */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+  }
+  .match-control-buttons{
+    position:absolute;
+    top:70px;
+    left:450px;
+  }
+  .sba,.sbb{
+    padding: 10px;
+    width: 400px;
+  }
+  .ctime{
+    position:absolute;
+    top:180px;
+    left:180px ;
+  }
+  .sboard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 0;
+    padding: 0;
+  }
+  .btns{
+    margin:8px;
+    padding:13px;
+  
+  }
+}
+
+
+/* For medium devices (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 1105px) {
+  /* Your CSS styles for medium devices here */
+  .App {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+  
+  .mtime {
+    position: absolute; /* Change position to static for smaller screens */
+    font-size: 70px; /* Adjust font size for smaller screens */
+    left: 260px; /* Remove left positioning */
+    top: auto; /* Remove top positioning */
+    margin-top: 20px; /* Add margin-top for spacing */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto;
+}
+.match-control-buttons{
+  position:absolute;
+  top:90px;
+  left:520px;
+}
+.sba,.sbb{
+  padding: 0px;
+  width: 300px;
+}
+.ctime{
+  position:absolute;
+  top:180px;
+  left:240px ;
+}
+.sboard{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: 0;
+  padding: 0;
+}
+.btns{
+  margin:10px;
+  padding:15px;
+
+}
+}
+
+
+
+  
